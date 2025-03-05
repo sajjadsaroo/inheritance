@@ -1,8 +1,9 @@
 import payment.CreditCardPayment;
+import payment.PayPalPayment;
 
 public class Main {
     public static void main(String[] args) {
-        CreditCardPayment credit = new CreditCardPayment("1234" , "ali");
+        PayPalPayment credit = new PayPalPayment("@");
         credit.pay(10000);
     }
 }
