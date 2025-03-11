@@ -16,6 +16,8 @@ public class CreditCardPayment implements PaymentStrategy {
         System.out.println("Type of payment : " + split[0]);
         System.out.println("Card Number: : " + split[1]);
         System.out.println("Card holder Name: " + split[2]);
+        System.out.println();
+        System.out.println();
     }
 
     public String getPaymentDetails() {
